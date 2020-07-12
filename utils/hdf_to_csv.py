@@ -2,10 +2,10 @@ import os
 import pandas as pd
 
 #set path to hdf file
-path_to_hdf = "/mnt/usfboxsync/Boris Blanck Lab Work/Kidney2/vdj_recoveries_cptac.h5"
+path_to_hdf = "/usfboxsync/vdj_recoveries_cptac.h5"
 
 #set output path
-output_path = "/mnt/usfboxsync/Boris Blanck Lab Work/Kidney2/vdj_cptac/"
+output_path = "/usfboxsync/vdj_cptac/"
 
 #pull all keys in hdfstore
 with pd.HDFStore(path_to_hdf) as hdf:
